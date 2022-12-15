@@ -2,10 +2,14 @@
 @import 'base/variables';
 
 * {
-	font-family: Museo Sans Cyrl;
+	font-family: 'Museo Sans Cyrl';
 }
 
-h1 {
-	color: $main-color;
-	font-weight: 900;
+.container {
+	width: 950px;
+	margin: 0 auto;
 }
+
+@import 'blocks/promo.scss';
+@import 'blocks/header.scss';
+@import 'blocks/buttons.scss'
