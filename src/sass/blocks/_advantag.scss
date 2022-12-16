@@ -1,0 +1,28 @@
+.advantag {
+	padding: 72px 0 67px 0;
+	background-color: #F6F6F6;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 65px;
+	}
+	&__item {
+		width: 248px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__subtitle {
+		font-weight: 900;
+		font-size: 18px;
+		color: $black-color;
+		margin-top: 42px;
+	}
+	&__descr {
+		text-align: center;
+		font-weight: 300;
+		font-size: 14px;
+		color: $black-color;
+		margin-top: 20px;
+	}
+}

@@ -5,6 +5,10 @@
 	font-family: 'Museo Sans Cyrl';
 }
 
+a {
+	text-decoration: none;
+}
+
 .container {
 	width: 950px;
 	margin: 0 auto;
@@ -12,4 +16,6 @@
 
 @import 'blocks/promo.scss';
 @import 'blocks/header.scss';
-@import 'blocks/buttons.scss'
+@import 'blocks/buttons.scss';
+@import 'blocks/advantag.scss';
+@import 'blocks/title.scss';
