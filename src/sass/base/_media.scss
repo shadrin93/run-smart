@@ -39,6 +39,11 @@
 			margin: 36px auto 0 auto;
 		}
 	}
+	.carousel {
+		.prev, .next {
+			display: none;
+		}
+	}
 }
 
 @media (max-width: 767px) {
@@ -154,5 +159,4 @@
 			width: 100%;
 		}
 	}
-
 }

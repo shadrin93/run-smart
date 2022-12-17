@@ -7,13 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>RunSmart</title>
 	<link rel="icon" href="icons/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/tiny-slider.css">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-	<div class="promo">
+	<section class="promo">
 		<div class="container">
 			<header class="header">
 				<a href="#" class="header__logo">
@@ -52,8 +53,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="advantag">
+	</section>
+
+	<section class="advantag">
 		<div class="container">
 			<h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
 			<div class="advantag__wrapper">
@@ -83,8 +85,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="consultation">
+	</section>
+
+	<section class="consultation">
 		<div class="container">
 			<h2 class="title title_left">Получите бесплатную консультацию <br>по подбору пульсометра </h2>
 			<div class="consultation__descr">
@@ -98,7 +101,31 @@
 				<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
 			</form>
 		</div>
-	</div>
+	</section>
+
+	<section class="carousel">
+		<div class="container">
+			<div class="container_block">
+				<div class="carousel__inner">
+					<div>
+						<img src="img/Слайд №1.jpg" alt="slide_1">
+					</div>
+					<div>
+						<img src="img/Слайд №2.jpg" alt="slide_2">
+					</div>
+					<div>
+						<img src="img/Слайд №3.jpg" alt="slide_3">
+					</div>
+				</div>
+				<button type="button" class="prev"><img src="icons/left.svg"></button>
+				<button type="button" class="next"><img src="icons/right.svg"></button>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
