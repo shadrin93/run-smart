@@ -1,0 +1,19 @@
+.pageup {
+	position: fixed;
+	display: none;
+	height: 60px;
+	width: 60px;
+	bottom: 60px;
+	right: 100px;
+	background-color: rgba(255, 255, 255, 0);
+	opacity: 60%;
+	transition: 0.3s all;
+	img {
+	width: 100%;
+	box-shadow: 1px 1px 18px rgb(103, 0, 0);
+	border-radius: 100%;
+	}
+	&:hover {
+		opacity: 100%;
+	}
+}

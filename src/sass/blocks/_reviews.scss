@@ -1,0 +1,41 @@
+.reviews {
+	padding-bottom: 67px;
+	&__wrapper {
+		margin-top: 60px;
+	}
+	&__item {
+		margin-bottom: 60px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	&__text {
+		display: inline-block;
+		max-width: 680px;
+		margin-left: 60px;
+	}
+	&__subtitle {
+		font-weight: 900;
+		font-size: 18px;
+		line-height: 18px;
+		color: $black-color;
+	}
+	&__undertitle {
+		font-weight: 700;
+		font-size: 14px;
+		color: #646464;
+	}
+	&__descr {
+		font-weight: 300;
+		font-size: 16px;
+		color: $black-color;
+		margin-top: 34px;
+		line-height: 24px;
+	}
+	&__photo {
+		vertical-align: top;
+		img {
+			width: 100px;
+		}
+	}
+}

@@ -25,4 +25,16 @@
 		color: $black-color;
 		margin-top: 20px;
 	}
+	&__icon {
+		&_animated {
+			animation-play-state: paused;
+			&:hover {
+				animation: heartbeat 1s ease infinite;
+				// animation-name: heartbeat;
+				// animation-duration: 1s;
+				// animation-timing-function: ease;
+				// animation-iteration-count: infinite;
+			}
+		}
+	}
 }

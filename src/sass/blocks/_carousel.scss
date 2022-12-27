@@ -14,7 +14,14 @@
 		background-color: rgba(255, 255, 255, 0);
 		top: 50%;
 		transform: translateY(-50%);
-		img {
+		transition: 0.2s all;
+		&:hover path {
+			fill: #aa0000;
+		}
+		&:hover {
+			top: 49%;
+		}
+		svg {
 			width: 31px;
 			height: 50px;
 		}
